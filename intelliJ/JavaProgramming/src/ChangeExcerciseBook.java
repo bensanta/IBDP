@@ -15,19 +15,19 @@ public class ChangeExcerciseBook {
         int moneyInQuarters = requestedChange / 25;
         int remainingAfterQuarters = requestedChange - moneyInQuarters*quarterWorth;
 
-        int moneyInDimes = remainingAfterQuarters / dimeWorth;
-        int remainingAfterDimes = requestedChange - moneyInDimes*dimeWorth;
-
-        int moneyInNickels = remainingAfterDimes / nickelWorth;
-        int remainingAfterNickels = requestedChange - moneyInNickels*nickelWorth;
-
-        int moneyInPennies = remainingAfterNickels / pennyWorth;
-        int remainingAfterPennies = requestedChange - moneyInPennies*pennyWorth;
+//        int moneyInDimes = remainingAfterQuarters / dimeWorth;
+//        int remainingAfterDimes = requestedChange - moneyInDimes*dimeWorth;
+//
+//        int moneyInNickels = remainingAfterDimes / nickelWorth;
+//        int remainingAfterNickels = requestedChange - moneyInNickels*nickelWorth;
+//
+//        int moneyInPennies = remainingAfterNickels / pennyWorth;
+//        int remainingAfterPennies = requestedChange - moneyInPennies*pennyWorth;
 
         System.out.println("Quarters: " + remainingAfterQuarters);
-        System.out.println("Dimes: " + remainingAfterDimes);
-        System.out.println("Nickel: " + remainingAfterNickels);
-        System.out.println("Penny: " + remainingAfterPennies);
+//        System.out.println("Dimes: " + remainingAfterDimes);
+//        System.out.println("Nickel: " + remainingAfterNickels);
+//        System.out.println("Penny: " + remainingAfterPennies);
 
 
     }
