@@ -1,4 +1,4 @@
-public class GradeExerciseBook {
+public class ExerciseBookGrade {
     public static void main(String[] args) {
         int percentage = IBIO.inputInt("Enter the Percentage: ");
         if (percentage<60 && percentage>-1){

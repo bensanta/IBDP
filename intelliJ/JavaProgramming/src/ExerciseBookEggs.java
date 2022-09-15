@@ -1,4 +1,4 @@
-public class EggsExerciseBook {
+public class ExerciseBookEggs {
     public static void main(String[] args) {
         int numOfEggs = IBIO.inputInt("Enter the amount of eggs would you like to buy: "); //total eggs count
         int numOfDozens = numOfEggs/12; //# of dozens

@@ -1,4 +1,4 @@
-public class PrintingExerciseBook {
+public class ExerciseBookPrinting {
     public static void main(String[] args) {
         int numOfCopies = IBIO.inputInt("Enter the number of copies you'd like printed: ");
         if (numOfCopies >= 0 && numOfCopies <= 99){

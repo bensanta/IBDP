@@ -1,4 +1,4 @@
-public class ElectionExerciseBook {
+public class ExerciseBookElection {
     public static void main(String[] args) {
         String candidate1Name = IBIO.inputString("What is the name of first candidate? ");
         String candidate2Name = IBIO.inputString("What is the name of second candidate? ");
@@ -12,6 +12,7 @@ public class ElectionExerciseBook {
         //CT Votes
         int candidate1VoteCT = IBIO.inputInt("How many votes did " +candidate1Name+ " get in Connecticut? ");
         int candidate2VoteCT = IBIO.inputInt("How many votes did " +candidate2Name+ " get in Connecticut? ");
+
 
         int allCandidate1Votes = candidate1VoteNY + candidate1VoteNJ + candidate1VoteCT;
         int allCandidate2Votes = candidate2VoteNY + candidate2VoteNJ + candidate2VoteCT;

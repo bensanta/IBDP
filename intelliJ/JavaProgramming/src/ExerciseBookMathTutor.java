@@ -1,5 +1,5 @@
 import java.util.Random;
-public class MathTutorExerciseBook {
+public class ExerciseBookMathTutor {
     public static void main(String[] args) {
         //generating 2 random digits
         int randomInt1 = (int)Math.floor(Math.random()*(10-0+1)+0);
