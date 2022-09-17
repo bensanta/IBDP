@@ -9,8 +9,6 @@ public class W3ResConditionalStatement9 {
                 } else {
                     System.out.println(year + " is not a leap year");
                 }
-            } else {
-                System.out.println(year + " is a leap year");
             }
         } else {
             System.out.println(year + " is not a leap year");
