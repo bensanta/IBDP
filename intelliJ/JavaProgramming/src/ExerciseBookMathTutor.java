@@ -2,10 +2,11 @@ import java.util.Random;
 public class ExerciseBookMathTutor {
     public static void main(String[] args) {
         //generating 2 random digits
-        int randomInt1 = (int)Math.floor(Math.random()*(10-0+1)+0);
-        int randomInt2 = (int)Math.floor(Math.random()*(10-0+1)+0);
+        Random rnd = new Random ();
+        int randomInt1 = rnd.nextInt(11);
+        int randomInt2 = rnd.nextInt(11);
         //determining the operator to use
-        int operatorValue = (int)Math.floor(Math.random()*(4-1+1)+1);
+        int operatorValue = rnd.nextInt(1, 5);
 
         if (operatorValue == 1){ //Addition +
             int userAnswer = IBIO.inputInt("What is " + randomInt1 + " + " + randomInt2 + " ?\n");
