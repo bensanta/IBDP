@@ -3,8 +3,8 @@ public class ExerciseBookMathTutor {
     public static void main(String[] args) {
         //generating 2 random digits
         Random rnd = new Random ();
-        int randomInt1 = rnd.nextInt(11);
-        int randomInt2 = rnd.nextInt(11);
+        int randomInt1 = rnd.nextInt(1, 11);
+        int randomInt2 = rnd.nextInt(1, 11);
         //determining the operator to use
         int operatorValue = rnd.nextInt(1, 5);
 
