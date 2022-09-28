@@ -4,15 +4,12 @@ public class WhileLessonActivity5 {
         String name = IBIO.inputString("Please enter your name: ");
         System.out.println();
         int i = 0;
-        int beginIndexSubtract = 1;
-        int endIndexSubtract = 0;
 
         while (i < name.length()){
-            System.out.print(name.substring(name.length()-beginIndexSubtract,name.length()-endIndexSubtract));
-            beginIndexSubtract++;
-            endIndexSubtract++;
+            System.out.print(name.charAt(name.length()-1-i));
             i++;
         }
+
 
     }
 }
