@@ -17,17 +17,29 @@ public class Testing {
 //
 //        System.out.print("\n");
 //        System.out.println();
-        String name = IBIO.input("Please enter your name: ");
+//        String name = IBIO.input("Please enter your name: ");
+//
+//        int i = 0;
+//        int beginIndexSubtract = 1;
+//        int endIndexSubtract = 0;
+//
+//        while (i < name.length()){
+//            System.out.print(name.charAt(name.length()-1-i));
+//            beginIndexSubtract++;
+//            endIndexSubtract++;
+//            i++;
+        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
 
-        int i = 0;
-        int beginIndexSubtract = 1;
-        int endIndexSubtract = 0;
+        String input = IBIO.input("Enter text: ");
 
-        while (i < name.length()){
-            System.out.print(name.charAt(name.length()-1-i));
-            beginIndexSubtract++;
-            endIndexSubtract++;
-            i++;
+        int vowelCount = 0;
+        for (int i = 0; i < input.length(); i++){
+            for (int j = 0; j <= 4; j++) {
+                if (input.charAt(i) == vowels[j]) {
+                    vowelCount++;
+                }
+            }
         }
+        System.out.println("Vowel Count: " + vowelCount);
     }
 }
