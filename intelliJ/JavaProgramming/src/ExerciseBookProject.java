@@ -11,10 +11,10 @@ public class ExerciseBookProject {
         int total = designing + coding + debugging + testing;
 
         //percentage
-        double designingPercent = (double)designing/total*100;
-        double codingPercent = (double)coding/total*100;
-        double debuggingPercent = (double)debugging/total*100;
-        double testingPercent = (double)testing/total*100;
+        double designingPercent = (double) designing / total * 100;
+        double codingPercent = (double) coding / total * 100;
+        double debuggingPercent = (double) debugging / total * 100;
+        double testingPercent = (double) testing / total * 100;
 
         //output to user
         System.out.println("TASK + %TIME SPENT");

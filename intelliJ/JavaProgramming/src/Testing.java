@@ -28,18 +28,20 @@ public class Testing {
 //            beginIndexSubtract++;
 //            endIndexSubtract++;
 //            i++;
-        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+//        char[] vowels = {'a', 'e', 'i', 'o', 'u'};
+//
+//        String input = IBIO.input("Enter text: ");
+//
+//        int vowelCount = 0;
+//        for (int i = 0; i < input.length(); i++){
+//            for (int j = 0; j <= 4; j++) {
+//                if (input.charAt(i) == vowels[j]) {
+//                    vowelCount++;
+//                }
+//            }
+//        }
+//        System.out.println("Vowel Count: " + vowelCount);
 
-        String input = IBIO.input("Enter text: ");
 
-        int vowelCount = 0;
-        for (int i = 0; i < input.length(); i++){
-            for (int j = 0; j <= 4; j++) {
-                if (input.charAt(i) == vowels[j]) {
-                    vowelCount++;
-                }
-            }
-        }
-        System.out.println("Vowel Count: " + vowelCount);
     }
 }

@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class ExerciseBookPizzaCost {
     public static void main(String[] args) {
-        // TODO make varialbes for labour and rent cost, to be able to expand the program further
+        // TODO make variables for labour and rent cost, to be able to expand the program further
         Scanner myObj = new Scanner(System.in);  // Create a Scanner object
         System.out.println("Enter the diameter of the pizza in inches: ");
 
