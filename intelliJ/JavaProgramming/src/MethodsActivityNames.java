@@ -1,10 +1,8 @@
 public class MethodsActivityNames {
     public static void main(String[] args) {
-        String[] userWords = {};
-        String userInput = "";
-        int i = 1;
-        while (!userInput.equals("stop")){
-            userWords[i] = IBIO.input("Enter Words: ");
-        }
+        //TODO - Accept words from the keyboard. Terminate the application when the user enters STOP.
+        // Print out number of words starting with letter "A" and letter "B"
+
+
     }
 }
