@@ -15,18 +15,13 @@ public class MethodsActivityFrequencies {
 
         do {
             int die = rnd.nextInt(1, 7);
-            if (die == 1){
-                one ++;
-            } else if (die == 2){
-                two ++;
-            } else if (die == 3){
-                three ++;
-            } else if (die == 4){
-                four ++;
-            } else if (die == 5){
-                five ++;
-            } else if (die == 6){
-                six ++;
+            switch (die) {
+                case 1 -> one++;
+                case 2 -> two++;
+                case 3 -> three++;
+                case 4 -> four++;
+                case 5 -> five++;
+                case 6 -> six++;
             }
                 rolls++;
         } while (rolls < 120);
@@ -41,26 +36,32 @@ public class MethodsActivityFrequencies {
         //Printingt the bar chart
         System.out.println("Distribution Bar Chart");
 
+        System.out.print("\n1: ");
         for (int i = 0; i < one; i++){
             System.out.print("*");
-        } System.out.println();
+        }
 
+        System.out.print("\n2: ");
         for (int i = 0; i < two; i++){
             System.out.print("*");
-        } System.out.println();
+        }
 
+        System.out.print("\n3: ");
         for (int i = 0; i < three; i++){
             System.out.print("*");
-        } System.out.println();
+        }
 
+        System.out.print("\n4: ");
         for (int i = 0; i < four; i++){
             System.out.print("*");
-        } System.out.println();
+        }
 
+        System.out.print("\n5: ");
         for (int i = 0; i < five; i++){
             System.out.print("*");
-        } System.out.println();
+        }
 
+        System.out.print("\n6: ");
         for (int i = 0; i < six; i++){
             System.out.print("*");
         } System.out.println();
