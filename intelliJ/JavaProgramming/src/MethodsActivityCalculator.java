@@ -8,28 +8,20 @@ public class MethodsActivityCalculator
             menu();
             option=IBIO.inputInt("Select your option: ");
 
-            if (option == 1) {
-                addition();
-            }else if(option == 2) {
-                subtraction();
-            }else if(option == 3) {
-                multiplication();
-            } else if(option == 4) {
-                division();
-            } else if (option == 5) {
-                squareRoot();
-            } else if (option == 0) {
-                System.out.println("Thank you for using the calculator");
-            } else {
-                System.out.println("Invalid option, please try again");
+            switch (option) {
+                case 0 -> System.out.println("Thank you for using the calculator");
+                case 1 -> addition();
+                case 2 -> subtraction();
+                case 3 -> multiplication();
+                case 4 -> division();
+                case 5 -> squareRoot();
+                default -> System.out.println("Invalid option, please try again");
             }
-
         }
         while (option!=0);
     }
 
-    public static void menu()
-    {
+    public static void menu() {
         System.out.println("1: Addition");
         System.out.println("2: Subtraction");
         System.out.println("3: Multiplication");
@@ -37,8 +29,7 @@ public class MethodsActivityCalculator
         System.out.println("5: Square Root");
         System.out.println("0: Quit");
     }
-    public static void addition()
-    {
+    public static void addition() {
         //1.Accept two numbers
         int num1 = IBIO.inputInt("Enter the first number: ");
         int num2 = IBIO.inputInt("Enter the second number: ");
@@ -47,8 +38,7 @@ public class MethodsActivityCalculator
         //3.Display the result
         System.out.println("The total is: " + total);
     }
-    public static void subtraction()
-    {
+    public static void subtraction() {
         //1.Accept two numbers
         int num1 = IBIO.inputInt("Enter the first number: ");
         int num2 = IBIO.inputInt("Enter the second number: ");
@@ -57,8 +47,7 @@ public class MethodsActivityCalculator
         //3.Display the result
         System.out.println("The total is: " + total);
     }
-    public static void multiplication()
-    {
+    public static void multiplication() {
         //1.Accept two numbers
         int num1 = IBIO.inputInt("Enter the first number: ");
         int num2 = IBIO.inputInt("Enter the second number: ");
@@ -67,8 +56,7 @@ public class MethodsActivityCalculator
         //3.Display the result
         System.out.println("The total is: " + total);
     }
-    public static void division()
-    {
+    public static void division() {
         //1.Accept two numbers
         int num1 = IBIO.inputInt("Enter the first number: ");
         int num2 = IBIO.inputInt("Enter the second number: ");
@@ -77,12 +65,10 @@ public class MethodsActivityCalculator
         //3.Display the result
         System.out.println("The total is: " + total);
     }
-    public static void squareRoot()
-    {
+    public static void squareRoot() {
         //1.Accept a number
         int num1 = IBIO.inputInt("Enter the number: ");
         //2.Calculate the square root and display the result
         System.out.println("The square root is: " + Math.sqrt(num1));
     }
-
 }
