@@ -10,10 +10,10 @@ public class ExerciseBookSpending {
         int total = food + clothing + entertainment + rent;
 
         //percentage
-        double foodPercent = (double)food/total*100;
-        double clothingPercent = (double)clothing/total*100;
-        double entertainmentPercent = (double)entertainment/total*100;
-        double rentPercent = (double)rent/total*100;
+        double foodPercent = (double) food / total * 100;
+        double clothingPercent = (double) clothing / total * 100;
+        double entertainmentPercent = (double) entertainment / total * 100;
+        double rentPercent = (double) rent / total * 100;
 
         //output to user
         System.out.println("CATEGORY + BUDGET");
