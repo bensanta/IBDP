@@ -6,12 +6,8 @@ public class WhileLessonActivity5 {
         int i = 0;
 
         while (i < name.length()){
-            System.out.print(name.charAt(name.length()-1-i));
-            i++;
-
-
+            System.out.print(name.charAt(name.length() - 1 - i));
+            i ++;
         }
-
-
     }
 }

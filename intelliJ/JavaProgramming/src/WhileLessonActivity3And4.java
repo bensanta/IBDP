@@ -11,7 +11,7 @@ public class WhileLessonActivity3And4 {
         int nameLen = name.length(); //Length of Name
         while (nameLen > 0){
             System.out.println(name.substring(0, nameLen));
-            nameLen = nameLen - 1;
+            nameLen --;
         }
     }
 }

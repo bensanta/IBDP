@@ -5,6 +5,7 @@ public class EmailChecker {
 //        2.e-mail address should contain “.” AND
 //        3.”@” comes before “.”
 //        4.there should be 3 characters after the “.”
+
         String email = IBIO.input("Enter your e-mail address: ");
         int locOfAt = email.indexOf("@");
         int locOfPeriod = email.lastIndexOf("."); //lastIndexOf() is used, so that an email such as "Ben.Santa@pm.me" is still valid
